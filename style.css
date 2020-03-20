@@ -187,11 +187,16 @@
 		background-color:rgb(30, 29, 32);
 		height: 6vw;
 		display: flex;
-		justify-content: space-around;
 		position: fixed;
 		left: 0; bottom: 0;
 		width: 100vw;
 		z-index: 5;
+	}
+
+	.flex-contacts {
+		display: flex;
+		justify-content: space-around;
+		width: 83%;
 	}
 	
 	.contacts {
@@ -227,6 +232,7 @@
 	header {
 		justify-content: center;
 		height: 20vw;
+		position: absolute;
 	}
 
 	.logo .header-logo {
@@ -235,7 +241,119 @@
 
 	main {
 		margin-top: 19vw;
-		height: 67vw;
+		height: 82vw;
+		background: url(./img/Triedandtrusted-GT0118.png) 62%;
+    background-size: cover;
+	}
+
+	#introduction div img {
+		height: 98vw;
+	}
+
+	h2 {
+		font-size: 7vw;
+	}
+
+	#introduction {
+		height: 80vw;
+	}
+
+	#introduction p, .insurance-desc p {
+		text-align: center;
+		font-size: 3.7vw;
+		line-height: 2;
+		letter-spacing: .4vw;
+	}
+
+	#introduction div img {
+		bottom: 19vw;
+	}
+
+	.valuadles-items {
+		flex-direction: column;
+    align-items: center;
+	}
+
+	.valuadles-items div {
+		margin-bottom: 4vw;
+	}
+
+	.valuadles-items div img {
+		height: 30vw;
+	}
+
+	.valuadles-items div div {
+		font-size: 5vw;
+		margin-top: 3vw;
+		font-family: 'Montserrat', sans-serif;	
+	}
+
+	#insurance {
+		height: 96vw;
+	}
+
+	.insurance-raw {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#insurance img {
+		height: 44vw;
+		width: 87vw;
+		margin: 0;
+	}
+
+	.services-flex {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.services-item {
+		width: 63vw;
+		margin-top: 1.6vw;
+	}
+
+	.services-item img {
+		width: 60vw;
+	}
+
+	.cesterna {
+		height: 35vw;
+	}
+
+	.services-item p {
+		text-align: center;
+		font-size: 3.3vw;
+		letter-spacing: .2vw;
+	}
+
+	footer {
+		position: relative;
+		height: 60vw;
+		flex-wrap: wrap;
+		flex-direction: column;
+    align-items: center;
+	}
+
+	.logo img {
+		height: 35vw;
+	}
+
+	.contacts {
+		height: 6vw;
+	}
+
+	.data {
+		font-size: 2vw;
+	}
+
+	.flex-contacts {
+		width: 100%;
+    flex-wrap: wrap;
+	}
+
+	.linkedin{
+		margin-top: 12vw;
 	}
 }
 
